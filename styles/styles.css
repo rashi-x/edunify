@@ -1,0 +1,33 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: f3f4f6; 
+}
+  
+  h1 {
+    margin-bottom: 2rem; 
+  }
+  
+  
+  .grid {
+    gap: 2rem; 
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+  }
+  
+  
+  .container {
+    padding-left: 2rem; 
+  }
+  

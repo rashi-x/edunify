@@ -1,0 +1,100 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+.container {
+  position: relative;
+  width: 100%; 
+  max-width: 600px; 
+  margin: 0 auto;
+  height: auto;
+  border-radius: 20px;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 16px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.heading {
+  text-align: center;
+}
+
+.input {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.form label,
+.form input,
+.form button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form label:nth-of-type(2) {
+  margin-top: 20px;
+}
+
+.form input::placeholder {
+  color: #999;
+}
+
+.form input {
+  background: #f9f9f9;
+  padding: 14px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 25px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  margin-bottom: 20px;
+}
+
+.form button {
+  color: white;
+  margin-top: 30px;
+  background: #1DA1F2;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+.form button:hover {
+  box-shadow: none;
+}
+
+
+
+.form h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.error {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  font-size: 28px;
+  text-align: center; 
+}
