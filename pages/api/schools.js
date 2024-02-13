@@ -1,4 +1,4 @@
-// pages/api/schools.js
+
 
 import mysql from 'mysql2/promise';
 
