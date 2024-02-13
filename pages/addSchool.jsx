@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 import styles from './addSchool.module.css';
 
 const AddSchool = () => {
-  const { register, handleSubmit, formState: { errors }, reset } = useForm(); // Destructure reset function from useForm
+  const { register, handleSubmit, formState: { errors }, reset } = useForm(); 
   const [image, setImage] = useState(null);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const router = useRouter();
@@ -27,7 +27,7 @@ const AddSchool = () => {
       });
       if (res.ok) {
         setSubmitSuccess(true);
-        reset(); // Reset the form after successful submission
+        reset(); 
         window.scrollTo({ top: 0, behavior: 'smooth' });
       } else {
         console.error('Failed to add school');

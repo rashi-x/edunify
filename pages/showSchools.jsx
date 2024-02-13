@@ -1,9 +1,6 @@
-// showSchools.jsx
-
 import React, { useEffect, useState } from 'react';
 import '../styles/styles.css'; 
 import Head from 'next/head';
-
 
 const ShowSchoolsPage = () => {
   const [schools, setSchools] = useState([]);
@@ -39,7 +36,6 @@ const ShowSchoolsPage = () => {
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-2">{school.name}</h2>
               <p className="text-gray-600 mb-1">{school.address}, {school.city}</p>
-              
             </div>
           </div>
         ))}
